@@ -21,7 +21,7 @@ struct hfont {
 void print_hchar_info(struct hchar hc) {
     printf("Hershey character %d has %d vertices:\n", hc.cid, hc.nvert);
     printf("\t(lhp, rhp): (%d, %d)\n", hc.lhp, hc.rhp);
-    for(int j=0; j<hc.nvert-1; j++) {
+    for(int j=0; j<hc.nvert; j++) {
         printf("\t%d: (%d, %d)\n", j+1, hc.cp[j][0], hc.cp[j][1]);
     }
 }
@@ -29,7 +29,7 @@ void print_hchar_info(struct hchar hc) {
 void get_hfont(struct hfont* hf, char* font_name) {
 
     char fname[128];
-    sprintf(fname, "/home/dan/Documents/CProgs/Hershey/%s.hf", font_name);
+    sprintf(fname, "%s.hf", font_name);
 
     strcpy(hf->name, font_name);
     hf->num_hchars = 0;
