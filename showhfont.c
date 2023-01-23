@@ -110,8 +110,20 @@ void draw_shift_qwerty(Display* display, Window* win, GC* gc, struct hfont* hf) 
     }
 }
 
-void close_x(Display* display, Window win, GC gc) {
+void save_to_file(Display* display, Window win, GC gc) {
+    int w = WIDTH*HSIZE;
+    int h = HEIGHT*HSIZE;
+    char fname[20];
+    sprintf(fname, "%s", "testbmp.bmp");
+    Pixmap bmp = XCreatePixmap(display, win, w, h,
+        DefaultDepth(display, DefaultScreen(display)));
+    XCopyArea(display, win, bmp, gc, 0, 0, w, h, 0, 0);
+    XWriteBitmapFile(display, fname, bmp, w, h, -1, -1);
+    XFreePixmap(display, bmp);
+}
 
+void close_x(Display* display, Window win, GC gc) {
+    save_to_file(display, win, gc);
     XFreeGC(display, gc);
     XDestroyWindow(display, win);
     XCloseDisplay(display);
