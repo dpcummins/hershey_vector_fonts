@@ -15,5 +15,5 @@
   `./showhfont simplexroman`
 
 ### Example images
-![Simplex script](https://github.com/dpcummins/hershey_vector_fonts/blob/main/simplexscript.bmp?raw=true)
-![Complex roman](https://github.com/dpcummins/hershey_vector_fonts/blob/main/complexroman.bmp?raw=true)
+![Simplex script](https://github.com/dpcummins/hershey_vector_fonts/blob/main/simplexscript.png?raw=true)
+![Complex roman](https://github.com/dpcummins/hershey_vector_fonts/blob/main/complexroman.png?raw=true)
