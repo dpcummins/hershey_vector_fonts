@@ -176,8 +176,6 @@ int main(int argc, char* argv[]) {
         XNextEvent(display, &event);
         if(event.type == Expose && !event.xexpose.count) {
             draw_title(display, &win, &gc, &hf, argv[1]);
-//            draw_qwerty(display, &win, &gc, &hf);
-//            draw_shift_qwerty(display, &win, &gc, &hf);
             draw_hfont(display, &win, &gc, &hf);
         }
         if(event.type==KeyPress && XLookupString(&event.xkey, text, 255, &key, 0)) {

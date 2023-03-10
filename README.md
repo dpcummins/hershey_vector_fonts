@@ -1,7 +1,7 @@
 # Hershey Vector Fonts
-## A C library for loading Hershey vector font definitions, and some C functions for drawing the character sets
+## A C library for loading Hershey vector font definitions, and some C functions for drawing the character sets using XLib
 ### Description
-**A C library for loading Hershey vector font definitions, and some C functions for drawing the character sets**
+**A C library for loading Hershey vector font definitions, and some C functions for drawing the character sets using XLib**
 
 ### Files
 - hershey_font.h
