@@ -10,10 +10,10 @@
 
 ### Example usage
 - Compile:
-  `gcc showhfont.c -lX11 -o showhfont`
+  `gcc src/showhfont.c -lX11 -o showhfont`
 - Run:
   `./showhfont simplexroman`
 
 ### Example images
-![Simplex script](https://github.com/dpcummins/hershey_vector_fonts/blob/main/simplexscript.png?raw=true)
-![Complex roman](https://github.com/dpcummins/hershey_vector_fonts/blob/main/complexroman.png?raw=true)
+![Simplex script](https://github.com/dpcummins/hershey_vector_fonts/blob/main/images/simplexscript.png?raw=true)
+![Complex roman](https://github.com/dpcummins/hershey_vector_fonts/blob/main/images/complexroman.png?raw=true)
