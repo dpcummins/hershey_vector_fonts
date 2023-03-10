@@ -29,7 +29,7 @@ void print_hchar_info(struct hchar hc) {
 void get_hfont(struct hfont* hf, char* font_name) {
 
     char fname[128];
-    sprintf(fname, "%s.hf", font_name);
+    sprintf(fname, "fonts/%s.hf", font_name);
 
     strcpy(hf->name, font_name);
     hf->num_hchars = 0;
