@@ -19,6 +19,10 @@
 ![Complex roman](https://github.com/dpcummins/hershey_vector_fonts/blob/main/images/complexroman.png?raw=true)
 
 
+### Example applications
+See this library in use at [XCPlot](https://github.com/dpcummins/XCPlot) and [WatchyHershey](https://github.com/dpcummins/WatchyHershey).
+
+
 ### Notes
 The Hershey fonts were originally created by Dr. A. V. Hershey while working at the U. S. National Bureau of Standards.  
 The coordinate sets for the Hershey vector font characters were obtained from [http://paulbourke.net/dataformats/hershey/](http://paulbourke.net/dataformats/hershey/).  
