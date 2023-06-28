@@ -10,9 +10,14 @@
 
 ### Example usage
 - Compile:
-  `gcc src/showhfont.c -lX11 -o showhfont`
+  Within the `src` directory, run
+  ```bash
+  make showhfont
+  ```
 - Run:
-  `./showhfont simplexroman`
+  ```bash
+  ./showhfont simplexroman
+  ```
 
 ### Example images
 ![Simplex script](https://github.com/dpcummins/hershey_vector_fonts/blob/main/images/simplexscript.png?raw=true)
